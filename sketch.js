@@ -59,11 +59,11 @@ function draw() {
   fill(125);
   
   // Draw original text
-  text("create_compute", 0, -16);
+  text("create_compile", 0, -16);
   
   // Draw glitched text
   fill(75, 128); // Semi-transparent for overlap
-  text("create_compute", textGlitchOffset * cursorDirection.x, -16 + textGlitchOffset * cursorDirection.y);
+  text("create_compile", textGlitchOffset * cursorDirection.x, -16 + textGlitchOffset * cursorDirection.y);
   
   // Add "coming soon" text
   textSize(16);
